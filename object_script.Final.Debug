@@ -1,0 +1,14 @@
+debug/about.o
+debug/configuracion.o
+debug/consumidor.o
+debug/leeme.o
+debug/main.o
+debug/mainwindow.o
+debug/mutex.o
+debug/productor.o
+debug/moc_about.o
+debug/moc_configuracion.o
+debug/moc_consumidor.o
+debug/moc_leeme.o
+debug/moc_mainwindow.o
+debug/moc_productor.o

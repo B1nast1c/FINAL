@@ -178,6 +178,7 @@ Makefile: ../Final/Final.pro C:/Qt/6.1.1/mingw81_64/mkspecs/win32-g++/qmake.conf
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/resolve_config.prf \
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/exclusive_builds_post.prf \
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/default_post.prf \
+		C:/Qt/6.1.1/mingw81_64/mkspecs/features/win32/console.prf \
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/qml_debug.prf \
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/entrypoint.prf \
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/precompile_header.prf \
@@ -190,7 +191,6 @@ Makefile: ../Final/Final.pro C:/Qt/6.1.1/mingw81_64/mkspecs/win32-g++/qmake.conf
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/uic.prf \
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/qmake_use.prf \
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/file_copies.prf \
-		C:/Qt/6.1.1/mingw81_64/mkspecs/features/win32/windows.prf \
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/testcase_targets.prf \
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/exceptions.prf \
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/yacc.prf \
@@ -199,7 +199,6 @@ Makefile: ../Final/Final.pro C:/Qt/6.1.1/mingw81_64/mkspecs/win32-g++/qmake.conf
 		C:/Qt/6.1.1/mingw81_64/lib/Qt6Widgets.prl \
 		C:/Qt/6.1.1/mingw81_64/lib/Qt6Gui.prl \
 		C:/Qt/6.1.1/mingw81_64/lib/Qt6Core.prl \
-		C:/Qt/6.1.1/mingw81_64/lib/Qt6EntryPoint.prl \
 		C:/Qt/6.1.1/mingw81_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\Final\Final.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/spec_pre.prf:
@@ -310,6 +309,7 @@ C:/Qt/6.1.1/mingw81_64/mkspecs/features/win32/default_pre.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/resolve_config.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/exclusive_builds_post.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/default_post.prf:
+C:/Qt/6.1.1/mingw81_64/mkspecs/features/win32/console.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/qml_debug.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/entrypoint.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/precompile_header.prf:
@@ -322,7 +322,6 @@ C:/Qt/6.1.1/mingw81_64/mkspecs/features/win32/opengl.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/uic.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/qmake_use.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/file_copies.prf:
-C:/Qt/6.1.1/mingw81_64/mkspecs/features/win32/windows.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/testcase_targets.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/exceptions.prf:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/yacc.prf:
@@ -331,7 +330,6 @@ C:/Qt/6.1.1/mingw81_64/mkspecs/features/lex.prf:
 C:/Qt/6.1.1/mingw81_64/lib/Qt6Widgets.prl:
 C:/Qt/6.1.1/mingw81_64/lib/Qt6Gui.prl:
 C:/Qt/6.1.1/mingw81_64/lib/Qt6Core.prl:
-C:/Qt/6.1.1/mingw81_64/lib/Qt6EntryPoint.prl:
 C:/Qt/6.1.1/mingw81_64/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\Final\Final.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"

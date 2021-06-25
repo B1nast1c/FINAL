@@ -21,22 +21,22 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_Leeme_t {
+struct qt_meta_stringdata_leeme_t {
     const uint offsetsAndSize[2];
     char stringdata0[6];
 };
 #define QT_MOC_LITERAL(ofs, len) \
-    uint(offsetof(qt_meta_stringdata_Leeme_t, stringdata0) + ofs), len 
-static const qt_meta_stringdata_Leeme_t qt_meta_stringdata_Leeme = {
+    uint(offsetof(qt_meta_stringdata_leeme_t, stringdata0) + ofs), len 
+static const qt_meta_stringdata_leeme_t qt_meta_stringdata_leeme = {
     {
-QT_MOC_LITERAL(0, 5) // "Leeme"
+QT_MOC_LITERAL(0, 5) // "leeme"
 
     },
-    "Leeme"
+    "leeme"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_Leeme[] = {
+static const uint qt_meta_data_leeme[] = {
 
  // content:
        9,       // revision
@@ -52,7 +52,7 @@ static const uint qt_meta_data_Leeme[] = {
        0        // eod
 };
 
-void Leeme::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void leeme::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
     (void)_id;
@@ -60,10 +60,10 @@ void Leeme::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void 
     (void)_a;
 }
 
-const QMetaObject Leeme::staticMetaObject = { {
+const QMetaObject leeme::staticMetaObject = { {
     QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
-    qt_meta_stringdata_Leeme.offsetsAndSize,
-    qt_meta_data_Leeme,
+    qt_meta_stringdata_leeme.offsetsAndSize,
+    qt_meta_data_leeme,
     qt_static_metacall,
     nullptr,
     nullptr,
@@ -71,20 +71,20 @@ const QMetaObject Leeme::staticMetaObject = { {
 } };
 
 
-const QMetaObject *Leeme::metaObject() const
+const QMetaObject *leeme::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *Leeme::qt_metacast(const char *_clname)
+void *leeme::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_Leeme.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_leeme.stringdata0))
         return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
-int Leeme::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int leeme::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QDialog::qt_metacall(_c, _id, _a);
     return _id;
