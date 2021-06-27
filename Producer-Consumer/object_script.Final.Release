@@ -1,0 +1,13 @@
+release/about.o
+release/configuracion.o
+release/consumidor.o
+release/leeme.o
+release/main.o
+release/mainwindow.o
+release/productor.o
+release/moc_about.o
+release/moc_configuracion.o
+release/moc_consumidor.o
+release/moc_leeme.o
+release/moc_mainwindow.o
+release/moc_productor.o
