@@ -110,14 +110,14 @@ public:
         label_2->setGeometry(QRect(20, 240, 101, 61));
         producido = new QLabel(centralwidget);
         producido->setObjectName(QString::fromUtf8("producido"));
-        producido->setGeometry(QRect(250, 60, 31, 20));
+        producido->setGeometry(QRect(250, 60, 51, 20));
         QFont font2;
         font2.setPointSize(10);
         font2.setBold(true);
         producido->setFont(font2);
         consumido = new QLabel(centralwidget);
         consumido->setObjectName(QString::fromUtf8("consumido"));
-        consumido->setGeometry(QRect(590, 60, 31, 20));
+        consumido->setGeometry(QRect(590, 60, 51, 20));
         consumido->setFont(font2);
         outputprod = new QScrollArea(centralwidget);
         outputprod->setObjectName(QString::fromUtf8("outputprod"));
